@@ -1,0 +1,5 @@
+cat <file> = concentrate on file
+	-n = show number before lines
+	<file> <file> = show two files
+	test > test1 = write content of test to test1
+	test >> test1 = append content of test to test1

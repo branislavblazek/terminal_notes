@@ -1,0 +1,14 @@
+pwd = print working dir
+
+make symbolic link to see behaviour of pwd:
+ln -s ~/Desktop/testFolder xyz
+cd xyz
+
+pwd (-L)
+: ~/xyz
+pwd -P
+: ~/Desktop/testFolder 
+
+create a variable with pwd
+a=$(pwd)
+echo "Working in: $a"

@@ -1,0 +1,9 @@
+ls = list all items in folder
+	-a = hidden files
+	-l = in columns
+	-h = with -l, with human-readble sizes
+	-F = show / at the end of folders
+	-r = reverse order
+	-R = recursively (show sub-folders)
+	-S = most bigger files at top
+	-t = latest modified files at top

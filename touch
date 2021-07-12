@@ -1,0 +1,15 @@
+touch = create empty zero-byte file
+
+```
+touch leena sheena eeena
+ls
+: leena sheena eeena
+```
+
+	-A leena = change access and mofication time of file
+	-a leena = change access time
+	-m leena = change modification time
+	-c leena = if file doesnt exists, do not create it
+	-t branislav = set modiciation time
+[YY]MMDDHHmm[.SS]
+	-r branislav klon= set timestamp of klon as on branislav

@@ -1,0 +1,7 @@
+cd = change directory
+	- = go back before comamnd executed
+	* = dont know ending of folder? cd to xyz* = xyz{firstResult}
+
+pushd . = copy this path to cliboard
+popd = cd to path in clipboard
+cd ~/Downloads && ls = cd to path and list
